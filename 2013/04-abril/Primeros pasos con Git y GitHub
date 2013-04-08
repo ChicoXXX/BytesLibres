@@ -1,0 +1,75 @@
+El objetivo de este articulo es mostrar como trabajar con GitHub y por lógica, Git.
+
+Pero antes, un poco de teoría:
+
+
+GitHub [1] es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Utiliza el framework Ruby on Rails por GitHub, Inc. (anteriormente conocida como Logical Awesome).
+
+El código se almacena de forma pública, sin costo; aunque también se puede hacer de forma privada, creando de esta manera una cuenta de pago.
+
+Git [2] es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente. Al principio, Git se pensó como un motor de bajo nivel sobre el cual otros pudieran escribir la interfaz de usuario o front end como Cogito o StGIT. Sin embargo, Git se ha convertido desde entonces en un sistema de control de versiones con funcionalidad plena. Hay algunos proyectos de mucha relevancia que ya usan Git, en particular, el grupo de programación del núcleo Linux.
+
+El mantenimiento del software Git está supervisado por Junio Hamano desde 2009, quien recibe contribuciones al código de alrededor de 280 programadores.
+
+Ahora, manos al teclado :)
+
+Empezare por decir que estare trabajando con Debian Squeeze, pero puedes usar la distribución que te agrade (recuerda: Libertad ;) ) solo vas a tener que ejecutar los comando equivalentes.
+
+Empezaremos por instalar git en nuetro equipo con el comando:
+
+$sudo apt-get install git
+
+
+git rm 2013/04-abril/"Mis primeros pasos con Git y GitHub"
+
+$  git push origin master
+Username: 
+Password: 
+
+Counting objects: 7, done.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 511 bytes, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/ChicoXXX/BytesLibres.git
+   bc0bcde..1acb757  master -> master
+$
+
+
+
+
+
+
+
+
+Contributing on GitHub
+
+To contribute to a project that is hosted on GitHub you can fork the project on
+github.com, then clone your fork locally, make a change, push back to GitHub
+and then send a pull request, which will email the maintainer.
+
+
+fork project on github
+$ git clone https://github.com/my-user/project
+$ cd project
+$ (edit files)
+$ git add (files)
+$ git commit -m 'Explain what I changed'
+$ git push origin master
+
+go to github and click ‘pull request’ button
+
+
+
+
+
+
+
+
+
+
+[1] https://es.wikipedia.org/wiki/GitHub
+[2] https://es.wikipedia.org/wiki/Git
+
+
+
+
