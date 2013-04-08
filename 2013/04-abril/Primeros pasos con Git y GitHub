@@ -41,22 +41,22 @@ $
 
 
 
-Contributing on GitHub
+Trabajando con GitHub
 
-To contribute to a project that is hosted on GitHub you can fork the project on
-github.com, then clone your fork locally, make a change, push back to GitHub
-and then send a pull request, which will email the maintainer.
+Para trabajar en un proyecto que se encuentre en los servidores de GitHub 
+tu puedes hacer un fork del proyecto en github.com, 
+clonar tu fork localmente, hacer cambios, enviar cambios, etcetera.
 
 
-fork project on github
-$ git clone https://github.com/my-user/project
-$ cd project
-$ (edit files)
-$ git add (files)
-$ git commit -m 'Explain what I changed'
+Obtener un proyecto de GitHub
+$ git clone https://github.com/ChicoXXX/BytesLibres
+$ cd BytesLibres
+$ (editar los archivos)
+$ git add .
+$ git commit -m 'Explicando el cambio'
 $ git push origin master
 
-go to github and click ‘pull request’ button
+ir a github y presionar el botón ‘pull request’
 
 
 
