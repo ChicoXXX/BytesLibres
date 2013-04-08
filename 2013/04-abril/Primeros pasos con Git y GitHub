@@ -19,8 +19,8 @@ Empezaremos por instalar git en nuetro equipo con el comando:
 
 $sudo apt-get install git
 
-$git config user.name ChicoXXX
-$git config user.email orodolfo.salazars@gmail.com
+$git config --global user.name TU-NOMBRE
+$git config --global user.email TU-EMAIL
 
 git rm 2013/04-abril/"Mis primeros pasos con Git y GitHub"
 
@@ -71,7 +71,7 @@ ir a github y presionar el botón ‘pull request’
 
 [1] https://es.wikipedia.org/wiki/GitHub
 [2] https://es.wikipedia.org/wiki/Git
-
+[3] https://help.github.com/articles/set-up-git
 
 
 
