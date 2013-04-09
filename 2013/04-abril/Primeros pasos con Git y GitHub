@@ -19,59 +19,59 @@ Empezaremos por instalar git en nuetro equipo con el comando:
 
 $sudo apt-get install git
 
+A continuación procederemos a configurar nuestros datos personales, mismos que se reflejaran cuando envíemos nuestras contribuciones; lo haremos con los siguientes comandos:
+
 $git config --global user.name TU-NOMBRE
+
 $git config --global user.email TU-EMAIL
 
-git rm 2013/04-abril/"Mis primeros pasos con Git y GitHub"
+Muy bien, ahora bajaremos de GitHub un proyecto... ¿que tal el presente artículo?... y lo haremos con el siguiente comando:
 
-$  git push origin master
-Username: 
-Password: 
+$git clone https://github.com/ChicoXXX/BytesLibres.git
 
-Counting objects: 7, done.
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (5/5), 511 bytes, done.
-Total 5 (delta 0), reused 0 (delta 0)
-To https://github.com/ChicoXXX/BytesLibres.git
-   bc0bcde..1acb757  master -> master
-$
+Con el anterior comando tendremos un directorio en nuestro equipo, para este ejemplo, llamado BytesLibres al cual entraremos:
 
+$cd BytesLibres
 
+Y podemos empezar a contribuir con el presente articulo con el siguiente comando:
 
+$nano 2013/04-abril/"Primeros pasos con Git y GitHub"
 
+¿Y qué creen que sigue? ... ¡Adivinaron! tomar aire y escribir :-D
 
+Al terminar de escribir, grabamos con Control+o y salimos con Control+x. Acto seguido podemos ver el estatus de nuestra copia local con:
 
+$git status
 
+Lo que veremos son los archivos que se han modificado. Los cambios que acabamos de hacer los agregaremos con:
 
-Trabajando con GitHub
+$git add .
 
-Para trabajar en un proyecto que se encuentre en los servidores de GitHub 
-tu puedes hacer un fork del proyecto en github.com, 
-clonar tu fork localmente, hacer cambios, enviar cambios, etcetera.
+Vemos a continuación nuevamente el estatus con el comando que se indico líneas arriba para despues hacer un commit:
 
+$git commit -m "INDICO LOS CAMBIOS QUE REALICE."
 
-Obtener un proyecto de GitHub
-$ git clone https://github.com/ChicoXXX/BytesLibres
-$ cd BytesLibres
-$ (editar los archivos)
-$ git add .
-$ git commit -m 'Explicando el cambio'
-$ git push origin master
+Es de notar el parametro -m y el texto que va entre comillas, ya que con esto se grabara en el log un texto indicando el cambio que se realizo. Ahora subiremos los cambios a GitHub.com con:
 
-ir a github y presionar el botón ‘pull request’
+$git push origin master
 
+Con lo cua nos pedira nuestro usuario y password de GitHub, mismos que podemos obtener en caso de no tenerlos entrando a www.github.com poner nuestro usuario, email, password y dar click en "Sign up for free".
 
+Y de esta manera ya empezamos a colaborar con este artículo, y no se preocupen, todo queda en los logs y podemos observar quien a colaborado y con que.
 
+Podemos bajar las colaboraciones de otras personas con el comando:
 
+$git pull
 
+Esta el la forma básica de trabajar, para la siguiente entrega (a menos que alguien colabore en el presente artículo) mostraremos como configurar el acceso por ssh y como eliminar archivos.
 
-
+Para terminar:
+Espero que esta forma de trabajar sea de buen agrado para muchos, así como me ha gustado, y colaboren con este y con otros proyectos, es interesante ver un buen proyecto de código abierto que trabaje para la comunidad y, no se... Empresas, emprendedor@s, amig@s y colaborador@s: ¿Incluir en nuetro CV el trabajo realizado en GitHub? ¿Qué opinan?
 
 
-
+Referencias:
 [1] https://es.wikipedia.org/wiki/GitHub
 [2] https://es.wikipedia.org/wiki/Git
 [3] https://help.github.com/articles/set-up-git
-
-
+[4] http://www.github.com
 
