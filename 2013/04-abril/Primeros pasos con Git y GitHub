@@ -15,7 +15,7 @@ Ahora, manos al teclado :)
 
 Empezare por decir que estare trabajando con Debian Squeeze, pero puedes usar la distribución que te agrade (recuerda: Libertad ;) ) solo vas a tener que ejecutar los comando equivalentes.
 
-Empezaremos por instalar git en nuetro equipo con el comando:
+Empezaremos por instalar git en nuestro equipo con el comando:
 
 $sudo apt-get install git
 
