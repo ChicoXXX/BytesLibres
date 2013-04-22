@@ -2,7 +2,6 @@ El objetivo de este articulo es mostrar como trabajar con GitHub y por lógica, 
 
 Pero antes, un poco de teoría:
 
-
 GitHub [1] es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Utiliza el framework Ruby on Rails por GitHub, Inc. (anteriormente conocida como Logical Awesome).
 
 El código se almacena de forma pública, sin costo; aunque también se puede hacer de forma privada, creando de esta manera una cuenta de pago.
