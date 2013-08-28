@@ -1,8 +1,0 @@
-editorial
--
-debian
-ubuntu
-seguridad
-ofimatica
-otros
-
